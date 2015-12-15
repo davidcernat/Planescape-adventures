@@ -58,14 +58,13 @@ a:focus {
   margin-top: 2.2em;
 }
 
-.content div:last-child {
+.container div:last-child {
   padding-bottom: 5em;
 }
 
 .content div p {
   font-family: "Liberation Sans", Arial, sans-serif;
   font-size: 1.3em;
-  word-spacing: 0.3em;
 }
 
 .jumbotron {
@@ -102,7 +101,7 @@ img {
     margin-bottom: 2em;
   }
 
-  .content div:last-child {
+  .container div:last-child {
     padding-bottom: 15em;
   }
 }
