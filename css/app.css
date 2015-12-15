@@ -54,13 +54,17 @@ a:focus {
     text-decoration: none;
 }
 
-.information {
+.content div {
   margin-top: 2.2em;
 }
 
-.information p {
+.content div:last-child {
+  padding-bottom: 5em;
+}
+
+.content div p {
   font-family: "Liberation Sans", Arial, sans-serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   word-spacing: 0.3em;
 }
 
@@ -76,8 +80,6 @@ a:focus {
 
 .menu {
   list-style: none;
-  margin-bottom: 2em;
-  padding: 0 0 2.2em;
 }
 
 img {
@@ -86,6 +88,21 @@ img {
 
 .menu > li {
   font-family: "Exocet Light", Arial, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.6em;
   display: inline;
+}
+
+
+@media (min-width: 768px) {
+  .float-right {
+    float: right;
+  }
+
+  .menu {
+    margin-bottom: 2em;
+  }
+
+  .content div:last-child {
+    padding-bottom: 15em;
+  }
 }
